@@ -1,0 +1,18 @@
+# Dependensi (diinstal ulang lewat composer / npm)
+node_modules/
+vendor/
+
+# Rahasia dan pengaturan lokal
+.env
+.env.backup
+
+# Hasil build dan berkas sementara
+dist/
+*.log
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
+
+# Salinan bantu yang tidak perlu di repositori
+backend-overlay/

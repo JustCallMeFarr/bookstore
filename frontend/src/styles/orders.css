@@ -1,0 +1,198 @@
+/* Checkout, pesanan saya, dan halaman pesanan admin.
+   Catatan: selector memakai ".container.xxx" supaya tidak kalah oleh ".container" di main.css */
+.container.order-page {
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+/* ---------- Checkout ---------- */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 32px;
+  align-items: start;
+}
+.pay-option {
+  display: flex !important;
+  grid-template-columns: none !important;
+  gap: 12px;
+  align-items: flex-start;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 14px 16px;
+  color: var(--text) !important;
+}
+.pay-option input {
+  width: auto !important;
+  margin-top: 4px;
+}
+.pay-option span {
+  display: grid;
+  gap: 2px;
+}
+.sum-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+.sum-item small {
+  white-space: nowrap;
+}
+
+/* ---------- Status ---------- */
+.status-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.st-pending {
+  background: rgba(232, 184, 109, 0.16);
+  color: #e8b86d;
+}
+.st-processed {
+  background: rgba(100, 160, 240, 0.16);
+  color: #7fb2f5;
+}
+.st-shipped {
+  background: rgba(170, 130, 240, 0.16);
+  color: #b697f5;
+}
+.st-done {
+  background: rgba(92, 184, 122, 0.16);
+  color: #5cb87a;
+}
+.st-cancelled {
+  background: rgba(217, 83, 79, 0.16);
+  color: #ff8d89;
+}
+.paid {
+  color: var(--ok);
+  font-weight: 600;
+}
+
+/* ---------- Riwayat pesanan ---------- */
+.order-list {
+  display: grid;
+  gap: 14px;
+  max-width: 760px;
+}
+.order-card {
+  display: grid;
+  gap: 12px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  color: var(--text);
+  transition: 0.2s;
+}
+.order-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.order-card-head,
+.order-card-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.order-thumbs {
+  display: flex;
+  gap: 8px;
+}
+.order-thumbs img {
+  width: 40px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+/* ---------- Detail pesanan ---------- */
+.order-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.order-title h1 {
+  margin: 0;
+}
+.order-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 32px;
+  align-items: start;
+  margin-top: 20px;
+}
+.order-book {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.order-book img {
+  width: 38px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.order-total {
+  text-align: right;
+  font-size: 1.15rem;
+}
+.order-total strong {
+  color: var(--accent);
+  margin-left: 10px;
+}
+.pre {
+  white-space: pre-line;
+  margin: 0;
+}
+
+/* ---------- Admin ---------- */
+.row-click {
+  cursor: pointer;
+}
+.row-click:hover td {
+  background: #1d1d22;
+}
+.status-select {
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font: 600 0.8rem var(--font-body);
+  cursor: pointer;
+}
+.status-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+.status-select option {
+  background: #17171b;
+  color: var(--text);
+}
+.order-expand td {
+  background: #121216;
+}
+.expand-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  font-size: 0.9rem;
+}
+.expand-grid ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+@media (max-width: 860px) {
+  .checkout-grid,
+  .order-detail-grid,
+  .expand-grid {
+    grid-template-columns: 1fr;
+  }
+}

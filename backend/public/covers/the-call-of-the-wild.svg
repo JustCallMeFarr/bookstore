@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" width="300" height="450">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4b3c26"/><stop offset="1" stop-color="#0b0b0f"/></linearGradient></defs>
+  <rect width="300" height="450" fill="url(#g)"/>
+  <circle cx="199" cy="373" r="40" fill="#d7b77c" opacity="0.07"/><circle cx="116" cy="350" r="62" fill="#d7b77c" opacity="0.07"/><circle cx="213" cy="327" r="84" fill="#d7b77c" opacity="0.07"/>
+  <rect x="24" y="24" width="252" height="402" fill="none" stroke="#d7b77c" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="90" y1="118" x2="210" y2="118" stroke="#d7b77c" stroke-width="2"/>
+  <text x="150" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#d7b77c">The Call of</text>
+  <text x="150" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#d7b77c">the Wild</text>
+  <line x1="90" y1="260" x2="210" y2="260" stroke="#d7b77c" stroke-width="2"/>
+  <text x="150" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="2" fill="#d7b77c" opacity="0.9">JACK LONDON</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" width="300" height="450">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d4a7a"/><stop offset="1" stop-color="#0b0b0f"/></linearGradient></defs>
+  <rect width="300" height="450" fill="url(#g)"/>
+  <circle cx="71" cy="357" r="40" fill="#f2d16b" opacity="0.07"/><circle cx="168" cy="334" r="62" fill="#f2d16b" opacity="0.07"/><circle cx="85" cy="311" r="84" fill="#f2d16b" opacity="0.07"/>
+  <rect x="24" y="24" width="252" height="402" fill="none" stroke="#f2d16b" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="90" y1="96" x2="210" y2="96" stroke="#f2d16b" stroke-width="2"/>
+  <text x="150" y="146" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#f2d16b">Alice&#39;s</text>
+  <text x="150" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#f2d16b">Adventures in</text>
+  <text x="150" y="234" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#f2d16b">Wonderland</text>
+  <line x1="90" y1="282" x2="210" y2="282" stroke="#f2d16b" stroke-width="2"/>
+  <text x="150" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="2" fill="#f2d16b" opacity="0.9">LEWIS CARROLL</text>
+</svg>

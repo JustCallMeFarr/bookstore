@@ -1,0 +1,139 @@
+/* Halaman baca online */
+.reader {
+  min-height: 100vh;
+  padding-top: 62px; /* ruang untuk navbar */
+  transition: background 0.3s, color 0.3s;
+}
+.reader-dark {
+  --r-bg: #121214;
+  --r-text: #d9d5cc;
+  --r-bar: #1a1a1e;
+  --r-line: #2e2e34;
+}
+.reader-sepia {
+  --r-bg: #f3e9d2;
+  --r-text: #3b2f1e;
+  --r-bar: #e8dcc0;
+  --r-line: #d6c7a4;
+}
+.reader-light {
+  --r-bg: #fbfbfa;
+  --r-text: #222;
+  --r-bar: #efefed;
+  --r-line: #dcdcd8;
+}
+.reader {
+  background: var(--r-bg);
+  color: var(--r-text);
+}
+
+.reader-progress {
+  position: fixed;
+  top: 61px;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 60;
+  transition: width 0.15s;
+}
+
+.reader-toolbar {
+  position: sticky;
+  top: 62px;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 10px 24px;
+  background: var(--r-bar);
+  border-bottom: 1px solid var(--r-line);
+}
+.reader-back {
+  color: var(--r-text);
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+.reader-title {
+  font: 600 0.95rem var(--font-head);
+  opacity: 0.85;
+}
+.reader-controls {
+  display: flex;
+  gap: 6px;
+}
+.reader-controls button {
+  background: transparent;
+  color: var(--r-text);
+  border: 1px solid var(--r-line);
+  border-radius: 8px;
+  padding: 5px 12px;
+  font: 0.85rem var(--font-body);
+  cursor: pointer;
+}
+.reader-controls button:hover {
+  border-color: var(--accent);
+}
+.reader-controls button.on {
+  background: var(--accent);
+  color: #1a1408;
+  border-color: var(--accent);
+}
+
+.reader-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px 100px;
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.85;
+}
+.reader-page h1 {
+  font-family: var(--font-head);
+  font-size: 2.1em;
+  margin-bottom: 0.2em;
+}
+.reader-page h2 {
+  font-family: var(--font-head);
+  font-size: 1.35em;
+  margin: 1.8em 0 0.8em;
+  color: var(--accent-dark);
+}
+.reader-page p {
+  margin: 0 0 1.2em;
+  text-align: justify;
+  hyphens: auto;
+}
+.reader-page a {
+  color: var(--accent-dark);
+}
+.reader-end {
+  text-align: center !important;
+  margin-top: 3em !important;
+  opacity: 0.5;
+  font-size: 0.85em;
+}
+.reader-error {
+  color: var(--danger);
+  text-align: center !important;
+}
+.reader-loading {
+  text-align: center !important;
+  opacity: 0.6;
+}
+.reader-frame {
+  width: 100%;
+  height: 75vh;
+  border: 1px solid var(--r-line);
+  border-radius: 8px;
+}
+
+/* tombol yang belum bisa dipakai */
+.btn.btn-off {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+.btn.btn-off:hover {
+  background: transparent;
+  border-color: var(--line);
+}

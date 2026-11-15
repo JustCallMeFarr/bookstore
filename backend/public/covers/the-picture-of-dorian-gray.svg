@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" width="300" height="450">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#49304e"/><stop offset="1" stop-color="#0b0b0f"/></linearGradient></defs>
+  <rect width="300" height="450" fill="url(#g)"/>
+  <circle cx="136" cy="332" r="40" fill="#d2a9df" opacity="0.07"/><circle cx="233" cy="309" r="62" fill="#d2a9df" opacity="0.07"/><circle cx="150" cy="366" r="84" fill="#d2a9df" opacity="0.07"/>
+  <rect x="24" y="24" width="252" height="402" fill="none" stroke="#d2a9df" stroke-opacity="0.55" stroke-width="1.5"/>
+  <line x1="90" y1="118" x2="210" y2="118" stroke="#d2a9df" stroke-width="2"/>
+  <text x="150" y="168" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#d2a9df">The Picture of</text>
+  <text x="150" y="212" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#d2a9df">Dorian Gray</text>
+  <line x1="90" y1="260" x2="210" y2="260" stroke="#d2a9df" stroke-width="2"/>
+  <text x="150" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="2" fill="#d2a9df" opacity="0.9">OSCAR WILDE</text>
+</svg>
